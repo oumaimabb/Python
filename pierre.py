@@ -16,8 +16,8 @@ while input("Vous voulez jouer ?  (y/n): ").lower() != "n":
     if a == b:
         print("Tight \n")
     elif (a>b and b+1 == a) or (a<b and a+b == 2):
-        print(":D Vous avez gagnez.\n")
+        print(" Vous avez gagnez *-*.\n")
     else:
-        print(":( Vous avez perdu.\n")
+        print("Vous avez perdu *_*.\n")
 else:
     print("Au revoir.")
